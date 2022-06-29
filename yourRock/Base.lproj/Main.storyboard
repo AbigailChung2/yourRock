@@ -25,7 +25,7 @@
                                     <fragment content="Hello! How are you">
                                         <attributes>
                                             <color key="NSColor" red="0.81176470588235294" green="0.8784313725490196" blue="0.76470588235294112" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="35" name="Inter-Italic"/>
+                                            <font key="NSFont" metaFont="system" size="35"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -39,7 +39,7 @@
                                     <fragment content=" feeling today?">
                                         <attributes>
                                             <color key="NSColor" red="0.81176000000000004" green="0.87843000000000004" blue="0.76471" alpha="0.84706000000000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="35" name="Inter-Italic"/>
+                                            <font key="NSFont" metaFont="system" size="35"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
                                         </attributes>
                                     </fragment>
@@ -55,111 +55,113 @@
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XfZ-L9-AFA">
-                                        <rect key="frame" x="25" y="31" width="57" height="31"/>
+                                        <rect key="frame" x="24" y="21" width="136" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="🤩">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="🤩 excited">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGC-aE-dMY">
-                                        <rect key="frame" x="325" y="58" width="61" height="55"/>
+                                        <rect key="frame" x="261" y="69" width="125" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.12156862745098039" green="0.21176470588235294" blue="0.23921568627450979" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="😁">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="happy 😁">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sJ-WP-fGK">
-                                        <rect key="frame" x="325" y="162" width="61" height="55"/>
+                                        <rect key="frame" x="249" y="169" width="135" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="😌">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="content😌">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lno-9F-IS9">
-                                        <rect key="frame" x="325" y="268" width="61" height="55"/>
+                                        <rect key="frame" x="263" y="279" width="121" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="😐">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="bored 😐">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3l-cI-88A">
-                                        <rect key="frame" x="340" y="369" width="61" height="55"/>
+                                        <rect key="frame" x="247" y="371" width="150" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="😖">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="stressed 😖">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUf-GO-Ycs">
-                                        <rect key="frame" x="340" y="465" width="61" height="55"/>
+                                        <rect key="frame" x="263" y="468" width="119" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="😡">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="angry 😡">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMB-NR-6dP">
-                                        <rect key="frame" x="340" y="568" width="61" height="55"/>
+                                        <rect key="frame" x="244" y="578" width="157" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="😤">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="frustrated😤">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZs-Go-hMA">
-                                        <rect key="frame" x="25" y="129" width="57" height="31"/>
+                                        <rect key="frame" x="21" y="117" width="150" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="☺️">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="☺️ pleased">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku4-GQ-4a3">
-                                        <rect key="frame" x="25" y="230" width="57" height="31"/>
+                                        <rect key="frame" x="21" y="231" width="139" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="🥱">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="🥱 tired">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb7-op-tTw">
-                                        <rect key="frame" x="25" y="331" width="57" height="31"/>
+                                        <rect key="frame" x="14" y="326" width="152" height="39"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="☹️">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
-                                        </buttonConfiguration>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yv5-Cn-EoF">
-                                        <rect key="frame" x="21" y="412" width="61" height="55"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="😰">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="☹️ gloomy">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3w-Xt-8Sd">
-                                        <rect key="frame" x="21" y="511" width="61" height="55"/>
+                                        <rect key="frame" x="25" y="523" width="150" height="44"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="😒">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="33"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="😒 annoyed">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYH-IW-TMS">
@@ -172,7 +174,7 @@
                                                 <fragment content="Next">
                                                     <attributes>
                                                         <color key="NSColor" red="0.81176470588235294" green="0.8784313725490196" blue="0.76470588235294112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="22" name="Inter-Regular"/>
+                                                        <font key="NSFont" metaFont="system" size="22"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -180,6 +182,16 @@
                                         <connections>
                                             <segue destination="dMA-te-qH1" kind="show" id="Al4-RA-7fh"/>
                                         </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yv5-Cn-EoF">
+                                        <rect key="frame" x="21" y="421" width="141" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="😰 anxious">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                        </buttonConfiguration>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -229,7 +241,7 @@
                                                 <fragment content="Regenerate">
                                                     <attributes>
                                                         <color key="NSColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="25" name="Inter-Regular"/>
+                                                        <font key="NSFont" metaFont="system" size="25"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -246,7 +258,7 @@
                                                 <fragment content="Next">
                                                     <attributes>
                                                         <color key="NSColor" red="0.81176470588235294" green="0.8784313725490196" blue="0.76470588235294112" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" size="22" name="Inter-Regular"/>
+                                                        <font key="NSFont" metaFont="system" size="22"/>
                                                     </attributes>
                                                 </fragment>
                                             </attributedString>
@@ -284,35 +296,35 @@
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="133"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuT-OD-W13">
-                                                <rect key="frame" x="139" y="16" width="136" height="48"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <attributedString key="attributedText">
-                                                    <fragment content="Prompt">
-                                                        <attributes>
-                                                            <color key="NSColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <font key="NSFont" size="41" name="Inter-Regular"/>
-                                                        </attributes>
-                                                    </fragment>
-                                                </attributedString>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kv-k0-bqt">
                                                 <rect key="frame" x="342" y="88" width="61" height="28"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <color key="tintColor" red="0.43921568630000002" green="0.66274509800000003" blue="0.63137254899999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="tinted">
                                                     <attributedString key="attributedTitle">
-                                                        <fragment content="Button">
+                                                        <fragment content="Save">
                                                             <attributes>
                                                                 <color key="NSBackgroundColor" red="0.4392156862745098" green="0.66274509803921566" blue="0.63137254901960782" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="12" name="Inter-Regular"/>
+                                                                <font key="NSFont" metaFont="cellTitle"/>
+                                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
                                                 </buttonConfiguration>
                                             </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuT-OD-W13">
+                                                <rect key="frame" x="139" y="31" width="136" height="48"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <attributedString key="attributedText">
+                                                    <fragment content="Prompt">
+                                                        <attributes>
+                                                            <color key="NSColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <font key="NSFont" metaFont="system" size="41"/>
+                                                        </attributes>
+                                                    </fragment>
+                                                </attributedString>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.43921568630000002" green="0.66274509800000003" blue="0.63137254899999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </view>
@@ -324,7 +336,7 @@
                                             <fragment content="Start typing and pour your heart out!">
                                                 <attributes>
                                                     <color key="NSColor" red="0.43921568630000002" green="0.66274509800000003" blue="0.63137254899999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="28" name="Inter-Italic"/>
+                                                    <font key="NSFont" metaFont="system" size="28"/>
                                                 </attributes>
                                             </fragment>
                                         </attributedString>
@@ -342,6 +354,30 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l37-KR-5nP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1659.4202898550725" y="80.357142857142847"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hvC-nJ-v6i">
+            <objects>
+                <viewController id="0Ye-66-HVP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k6c-Sa-z1C">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Help Lines and Services" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3BR-ou-aiu">
+                                <rect key="frame" x="186" y="99" width="183" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="OPq-KW-9eH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uB6-st-epa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="868" y="780"/>
         </scene>
     </scenes>
     <resources>
