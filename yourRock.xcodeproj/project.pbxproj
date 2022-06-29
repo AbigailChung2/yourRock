@@ -17,6 +17,10 @@
 		17A679BA286B8E28007C3E82 /* yourRockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A679B9286B8E28007C3E82 /* yourRockTests.swift */; };
 		17A679C4286B8E28007C3E82 /* yourRockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A679C3286B8E28007C3E82 /* yourRockUITests.swift */; };
 		17A679C6286B8E28007C3E82 /* yourRockUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A679C5286B8E28007C3E82 /* yourRockUITestsLaunchTests.swift */; };
+		17A679D3286C0291007C3E82 /* MoodLadderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A679D2286C0291007C3E82 /* MoodLadderViewController.swift */; };
+		17A679D5286C02C4007C3E82 /* DisplayPromptViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A679D4286C02C4007C3E82 /* DisplayPromptViewController.swift */; };
+		17A679D7286C02ED007C3E82 /* TypeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A679D6286C02ED007C3E82 /* TypeScreenViewController.swift */; };
+		17A679DB286C04FF007C3E82 /* HelpLinesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A679DA286C04FF007C3E82 /* HelpLinesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,11 @@
 		17A679BF286B8E28007C3E82 /* yourRockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = yourRockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A679C3286B8E28007C3E82 /* yourRockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourRockUITests.swift; sourceTree = "<group>"; };
 		17A679C5286B8E28007C3E82 /* yourRockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourRockUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		17A679D2286C0291007C3E82 /* MoodLadderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLadderViewController.swift; sourceTree = "<group>"; };
+		17A679D4286C02C4007C3E82 /* DisplayPromptViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayPromptViewController.swift; sourceTree = "<group>"; };
+		17A679D6286C02ED007C3E82 /* TypeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeScreenViewController.swift; sourceTree = "<group>"; };
+		17A679D9286C04C2007C3E82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		17A679DA286C04FF007C3E82 /* HelpLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpLinesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,10 @@
 				17A679A1286B8E22007C3E82 /* SceneDelegate.swift */,
 				17A679A3286B8E22007C3E82 /* ViewController.swift */,
 				17A679A5286B8E22007C3E82 /* Main.storyboard */,
+				17A679D6286C02ED007C3E82 /* TypeScreenViewController.swift */,
+				17A679DA286C04FF007C3E82 /* HelpLinesViewController.swift */,
+				17A679D2286C0291007C3E82 /* MoodLadderViewController.swift */,
+				17A679D4286C02C4007C3E82 /* DisplayPromptViewController.swift */,
 				17A679AB286B8E28007C3E82 /* Assets.xcassets */,
 				17A679AD286B8E28007C3E82 /* LaunchScreen.storyboard */,
 				17A679B0286B8E28007C3E82 /* Info.plist */,
@@ -262,9 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A679A4286B8E22007C3E82 /* ViewController.swift in Sources */,
+				17A679D7286C02ED007C3E82 /* TypeScreenViewController.swift in Sources */,
 				17A679A0286B8E22007C3E82 /* AppDelegate.swift in Sources */,
+				17A679DB286C04FF007C3E82 /* HelpLinesViewController.swift in Sources */,
 				17A679A2286B8E22007C3E82 /* SceneDelegate.swift in Sources */,
+				17A679D5286C02C4007C3E82 /* DisplayPromptViewController.swift in Sources */,
 				17A679AA286B8E22007C3E82 /* yourRock.xcdatamodeld in Sources */,
+				17A679D3286C0291007C3E82 /* MoodLadderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +322,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				17A679A6286B8E22007C3E82 /* Base */,
+				17A679D9286C04C2007C3E82 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

@@ -1,0 +1,96 @@
+
+/* Class = "UILabel"; text = "Prompt"; ObjectID = "0yG-H4-0VV"; */
+"0yG-H4-0VV.text" = "Prompt";
+
+/* Class = "UIButton"; configuration.title = "content😌"; ObjectID = "3sJ-WP-fGK"; */
+"3sJ-WP-fGK.configuration.title" = "content😌";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "3sJ-WP-fGK"; */
+"3sJ-WP-fGK.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Regenerate"; ObjectID = "7ss-Gc-gUG"; */
+"7ss-Gc-gUG.configuration.title" = "Regenerate";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "7ss-Gc-gUG"; */
+"7ss-Gc-gUG.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "DYH-IW-TMS"; */
+"DYH-IW-TMS.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "DYH-IW-TMS"; */
+"DYH-IW-TMS.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "🥱 tired"; ObjectID = "Ku4-GQ-4a3"; */
+"Ku4-GQ-4a3.configuration.title" = "🥱 tired";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Ku4-GQ-4a3"; */
+"Ku4-GQ-4a3.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "☺️ pleased"; ObjectID = "LZs-Go-hMA"; */
+"LZs-Go-hMA.configuration.title" = "☺️ pleased";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LZs-Go-hMA"; */
+"LZs-Go-hMA.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "angry 😡"; ObjectID = "SUf-GO-Ycs"; */
+"SUf-GO-Ycs.configuration.title" = "angry 😡";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "SUf-GO-Ycs"; */
+"SUf-GO-Ycs.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "😒 annoyed"; ObjectID = "U3w-Xt-8Sd"; */
+"U3w-Xt-8Sd.configuration.title" = "😒 annoyed";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "U3w-Xt-8Sd"; */
+"U3w-Xt-8Sd.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Next"; ObjectID = "VoU-yy-2s3"; */
+"VoU-yy-2s3.configuration.title" = "Next";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "VoU-yy-2s3"; */
+"VoU-yy-2s3.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "☹️ gloomy"; ObjectID = "Wb7-op-tTw"; */
+"Wb7-op-tTw.configuration.title" = "☹️ gloomy";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Wb7-op-tTw"; */
+"Wb7-op-tTw.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "happy 😁"; ObjectID = "XGC-aE-dMY"; */
+"XGC-aE-dMY.configuration.title" = "happy 😁";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XGC-aE-dMY"; */
+"XGC-aE-dMY.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "🤩 excited"; ObjectID = "XfZ-L9-AFA"; */
+"XfZ-L9-AFA.configuration.title" = "🤩 excited";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "XfZ-L9-AFA"; */
+"XfZ-L9-AFA.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "😰 anxious"; ObjectID = "Yv5-Cn-EoF"; */
+"Yv5-Cn-EoF.configuration.title" = "😰 anxious";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Yv5-Cn-EoF"; */
+"Yv5-Cn-EoF.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "stressed 😖"; ObjectID = "Z3l-cI-88A"; */
+"Z3l-cI-88A.configuration.title" = "stressed 😖";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Z3l-cI-88A"; */
+"Z3l-cI-88A.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "frustrated😤"; ObjectID = "aMB-NR-6dP"; */
+"aMB-NR-6dP.configuration.title" = "frustrated😤";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aMB-NR-6dP"; */
+"aMB-NR-6dP.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "bored 😐"; ObjectID = "lno-9F-IS9"; */
+"lno-9F-IS9.configuration.title" = "bored 😐";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "lno-9F-IS9"; */
+"lno-9F-IS9.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Don't like the prompt?"; ObjectID = "rGx-KH-lm4"; */
+"rGx-KH-lm4.text" = "Don't like the prompt?";
