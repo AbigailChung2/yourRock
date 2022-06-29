@@ -63,6 +63,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="🤩 excited">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="A59-yE-Gkz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGC-aE-dMY">
                                         <rect key="frame" x="261" y="69" width="125" height="44"/>
@@ -83,6 +86,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="content😌">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="mv1-Ue-juO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lno-9F-IS9">
                                         <rect key="frame" x="263" y="279" width="121" height="44"/>
@@ -93,6 +99,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="bored 😐">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="Tmq-yV-na1"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z3l-cI-88A">
                                         <rect key="frame" x="247" y="371" width="150" height="44"/>
@@ -103,6 +112,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="stressed 😖">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="Pe0-U9-5FD"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SUf-GO-Ycs">
                                         <rect key="frame" x="263" y="468" width="119" height="44"/>
@@ -113,6 +125,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="angry 😡">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="IhX-Qd-Qx6"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aMB-NR-6dP">
                                         <rect key="frame" x="244" y="578" width="157" height="44"/>
@@ -123,6 +138,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="frustrated😤">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="XUN-WG-PFW"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZs-Go-hMA">
                                         <rect key="frame" x="21" y="117" width="150" height="44"/>
@@ -133,6 +151,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="☺️ pleased">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="fdO-Fe-T79"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku4-GQ-4a3">
                                         <rect key="frame" x="21" y="231" width="139" height="31"/>
@@ -143,6 +164,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="🥱 tired">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="YLi-4r-Lp2"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wb7-op-tTw">
                                         <rect key="frame" x="14" y="326" width="152" height="39"/>
@@ -153,6 +177,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="☹️ gloomy">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="A6R-V4-Dls"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U3w-Xt-8Sd">
                                         <rect key="frame" x="25" y="523" width="150" height="44"/>
@@ -163,6 +190,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="😒 annoyed">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="uE9-BT-VxI"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DYH-IW-TMS">
                                         <rect key="frame" x="330" y="639" width="71" height="40"/>
@@ -192,6 +222,9 @@
                                         <buttonConfiguration key="configuration" style="plain" title="😰 anxious">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="1lx-rK-Ufd"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -205,10 +238,10 @@
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="80.357142857142847"/>
         </scene>
-        <!--Display Prompt View Controller-->
+        <!--PromptViewController-->
         <scene sceneID="WoA-LR-WPs">
             <objects>
-                <viewController id="dMA-te-qH1" customClass="DisplayPromptViewController" customModule="yourRock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="PromptViewController" id="dMA-te-qH1" customClass="DisplayPromptViewController" customModule="yourRock" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pVM-7k-cZ0">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -270,6 +303,12 @@
                                             <segue destination="UZg-MA-6Rf" kind="show" id="aUu-h0-bbv"/>
                                         </connections>
                                     </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zM0-ct-TA7">
+                                        <rect key="frame" x="31" y="570" width="352" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                 </subviews>
                                 <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </view>
@@ -421,6 +460,9 @@
             <point key="canvasLocation" x="1659.4202898550725" y="80.357142857142847"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="YLi-4r-Lp2"/>
+    </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
         <image name="Check" width="512" height="512"/>
