@@ -21,7 +21,7 @@ class PromptTableViewController: UITableViewController {
     var AnnoyedPrompt = ["Are you annoyed at anyone or anything specifically?", "do you have any pet peeves?", "Do you know why you're irritated?", "do you believe that people change?"]
     var FrustratedPrompt = ["is your status quo going out of control?", "what is something you wish you could tell your family or friends?"]
     
-                       
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
