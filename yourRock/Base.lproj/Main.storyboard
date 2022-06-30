@@ -26,10 +26,10 @@
             </objects>
             <point key="canvasLocation" x="34.782608695652179" y="80.357142857142847"/>
         </scene>
-        <!--Prompt Table View Controller-->
+        <!--Mood Ladder View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="PromptTableViewController" customModule="yourRock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MoodLadderViewController" customModule="yourRock" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,6 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="ExcitedPrompt:" destination="Kxi-KT-iAK" eventType="touchUpInside" id="U3C-be-zHg"/>
-                                            <action selector="ExcitedPrompt:" destination="BYZ-38-t0r" eventType="touchUpInside" id="okB-Mv-zHP"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="A59-yE-Gkz"/>
                                         </connections>
                                     </button>
@@ -334,7 +333,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kHV-LK-FSG">
-                                        <rect key="frame" x="137.5" y="525" width="139" height="44"/>
+                                        <rect key="frame" x="136.5" y="525" width="141" height="44"/>
                                         <color key="tintColor" red="0.25098039215686274" green="0.47450980392156861" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="filled">
@@ -342,7 +341,7 @@
                                                 <fragment content="Free-Write">
                                                     <attributes>
                                                         <color key="NSColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <font key="NSFont" metaFont="system" size="25"/>
+                                                        <font key="NSFont" size="25" name="Inter-Regular"/>
                                                         <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                     </attributes>
                                                 </fragment>
@@ -401,7 +400,6 @@
                     </view>
                     <navigationItem key="navigationItem" title="Your Prompt" id="K2q-OR-2Gf"/>
                     <connections>
-                        <outlet property="PromptDisplay" destination="WMa-9A-zQM" id="nUN-Xs-lHU"/>
                         <outlet property="displayPromptLabel" destination="0yG-H4-0VV" id="Q8u-tw-N9K"/>
                     </connections>
                 </viewController>
@@ -861,7 +859,7 @@
                                         <string key="content">[Click to start typing! Press the check icon once you're done to return to the start screen, the person or records icons for past moods and entries, and the phone icon for help lines and resources.]</string>
                                         <attributes>
                                             <color key="NSColor" red="0.12156862745098039" green="0.21176470588235294" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" metaFont="system" size="28"/>
+                                            <font key="NSFont" size="28" name="Inter-Italic"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>

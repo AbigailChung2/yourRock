@@ -6,7 +6,7 @@
 //
 
 import UIKit
-var ExcitedPromptMessage = ""
+
 class PromptTableViewController: UITableViewController {
     var ExcitedPrompt = ["Are you expecting change sometime soon?","Are you expecting something special?", "How do you like celebrating special events?"]
     var HappyPrompt = ["what is your love language?", "how do you express love?","what things that make you happy?","write about the best day you’ve had recently","What’s something you don’t want to forget?","What makes you smile the most?"]
@@ -21,19 +21,13 @@ class PromptTableViewController: UITableViewController {
     var AnnoyedPrompt = ["Are you annoyed at anyone or anything specifically?", "do you have any pet peeves?", "Do you know why you're irritated?", "do you believe that people change?", "What do you have no control over regarding the situation(s) causing your annoyance? How?", "does the lack of control make you feel?", "What’s bothering you most right now?"]
     var FrustratedPrompt = ["is your status quo going out of control?", "what is something you wish you could tell your family or friends?", "Is the current state of the world contributing to your frustration? Explain.", "What’s something that has been putting you off lately?", "Are things not working out the way you envisioned?"]
     
-    var RandomIntExcited =  Int.random(in: 0..<2)
-   
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
       
     }
-    @IBAction func ExcitedPrompt(_ sender: Any) {
-        ExcitedPromptMessage = ExcitedPrompt[RandomIntExcited]
-        
-    }
-    
+
     // MARK: - Table view data source
 
     override func numberOfSections(in tableView: UITableView) -> Int {
