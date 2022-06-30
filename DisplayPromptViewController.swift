@@ -9,13 +9,16 @@ import UIKit
 
 class DisplayPromptViewController: UIViewController {
 
-    @IBOutlet weak var displayPromptLabel: UILabel!
-    override func viewDidLoad() {
+    @IBOutlet weak var PromptDisplay: UILabel!
+    
+        override func viewDidLoad() {
         super.viewDidLoad()
+            
 
         // Do any additional setup after loading the view.
     }
-    
+    override func viewDidAppear(_ animated: Bool) {
+            PromptDisplay.text = ExcitedPromptMessage
 
     /*
     // MARK: - Navigation
@@ -27,4 +30,5 @@ class DisplayPromptViewController: UIViewController {
     }
     */
 
+}
 }
