@@ -9,7 +9,7 @@ import UIKit
 
 class PromptTableViewController: UITableViewController {
     var ExcitedPrompt = ["Are you expecting change sometime soon?"]
-    var HappyPromtp = ["what is your love language?", "how do you express love?","what things that make you happy?"]
+    var HappyPrompt = ["what is your love language?", "how do you express love?","what things that make you happy?"]
     var PleasedPrompt = ["describe a moment in which you were proud of yourself", "what are you personal goals for the month?"]
     var ContentPrompt = ["what is your favorite memory?", "how do you relax and unwind?"]
     var TiredPrompt = ["Have you had any crazy dreams lately?", "are you tired physically, mentally, or emotionally? explain.", "how will you commit to taking better care of yourself?"]
