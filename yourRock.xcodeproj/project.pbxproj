@@ -62,7 +62,6 @@
 		17A679C5286B8E28007C3E82 /* yourRockUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yourRockUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		17A679D2286C0291007C3E82 /* MoodLadderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodLadderViewController.swift; sourceTree = "<group>"; };
 		17A679D6286C02ED007C3E82 /* TypeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeScreenViewController.swift; sourceTree = "<group>"; };
-		17A679D9286C04C2007C3E82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		17A679DA286C04FF007C3E82 /* HelpLinesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpLinesViewController.swift; sourceTree = "<group>"; };
 		17A679E0286D298D007C3E82 /* MoodRecordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodRecordsTableViewController.swift; sourceTree = "<group>"; };
 		17A679E2286D2A12007C3E82 /* JournalRecordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRecordsTableViewController.swift; sourceTree = "<group>"; };
@@ -338,7 +337,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				17A679A6286B8E22007C3E82 /* Base */,
-				17A679D9286C04C2007C3E82 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

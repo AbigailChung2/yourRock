@@ -22,23 +22,30 @@ class TypeScreenViewController: UIViewController {
         let entry = Entry()
         
         if let entryText = typingField.text {
-            entry.written = entryText
-        }}
-        
-        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            if let completeVC = segue.destination as? JournalRecordsTableViewController {
-                if let entry = sender as? Entry {
-                    completeVC.selectedEntry = entry
-                    completeVC.previousVC = self
-                }
-            }
-            // Get the new view controller using segue.destination.
-            // Pass the selected object to the new view controller.
+            entry.written = entryText}
+            
+//        performSegue(withIdentifier: "One", sender: self)
+                    
         }
+        
+    
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if let completeVC = segue.destination as? MoodLadderViewController {
+//                if let entry = sender as? Entry {
+//                    completeVC.selectedEntry = entry
+//                    completeVC.previousVC = self
+//
+//                }
+//            }
+//    }
+}
+            // Get the new view controller using segue.destination
+            // Pass the selected object to the new view controller.
+//        }
         
 //        nextVC.entries.append(entry)
 //        nextVC.tableView.reloadData()
 //        navigationController?.popViewController(animated: true)
-    }
+//    }
     
 

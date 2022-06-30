@@ -8,7 +8,8 @@
 import UIKit
 
 class MoodLadderViewController: UIViewController {
-
+    var previousVC = TypeScreenViewController()
+    var selectedEntry = Entry()
     override func viewDidLoad() {
         super.viewDidLoad()
 
