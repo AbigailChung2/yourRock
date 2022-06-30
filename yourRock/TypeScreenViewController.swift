@@ -6,11 +6,11 @@
 //
 
 import UIKit
+import CoreData
 
 class TypeScreenViewController: UIViewController {
-    var nextVC = JournalRecordsTableViewController()
+    var previousVC = JournalRecordsTableViewController()
     @IBOutlet weak var displayPromptLabel: UILabel!
-    
     @IBOutlet weak var typingField: UITextView!
     
     override func viewDidLoad() {
@@ -20,25 +20,21 @@ class TypeScreenViewController: UIViewController {
     }
     
     @IBAction func saveButtonTapped(_ sender: Any) {
-        let entry = Entry()
-        
-        if let entryText = typingField.text {
-            entry.written = entryText
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else {
+            return
         }
-        // if tapped, save the entry.written to core data, make it show up in the entries archive, and segue to mood ladder
-        nextVC.entries.append(entry)
-        nextVC.tableView.reloadData()
-        navigationController?.popViewController(animated: true)
+        
+        let context = appDelegate.persistentContainer.viewContext
+        let entry = EntryCD(context : context)
+        
+        entry.written = typingField.text
+        
+        appDelegate.saveContext()
+        backToStart(_sender: (Any).self)
     }
     
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    @IBAction func backToStart(_sender: Any) {
+            performSegue(withIdentifier: "unwind", sender: self)
+        }
+    
 }

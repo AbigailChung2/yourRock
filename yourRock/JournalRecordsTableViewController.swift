@@ -8,20 +8,26 @@
 import UIKit
 
 class JournalRecordsTableViewController: UITableViewController {
-    var entries : [Entry] = []
+    var entries : [EntryCD] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        entries = archiveEntries()
+        getEntries()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        getEntries()
+    }
+    
+    func getEntries() {
+        if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            if  let coreDataEntries = try? context.fetch(EntryCD.fetchRequest()) as? [EntryCD] {
+                entries = coreDataEntries
+                tableView.reloadData()
+            }
+        }
     }
 
-    func archiveEntries() -> [Entry] {
-        let demo = Entry()
-        demo.written = "Here, you'll be able to see your past entries!"
-
-        return[demo]
-    }
     
     override func numberOfSections(in tableView: UITableView) -> Int {
         return 1
@@ -45,9 +51,5 @@ class JournalRecordsTableViewController: UITableViewController {
     }
     
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let addVC = segue.destination as? TypeScreenViewController {
-            addVC.nextVC = self
-        }
-    }
+    
 }
