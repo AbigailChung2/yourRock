@@ -25,7 +25,7 @@ class TypeScreenViewController: UIViewController {
         if let entryText = typingField.text {
             entry.written = entryText
         }
-        
+        // if tapped, save the entry.written to core data, make it show up in the entries archive, and segue to mood ladder
         nextVC.entries.append(entry)
         nextVC.tableView.reloadData()
         navigationController?.popViewController(animated: true)

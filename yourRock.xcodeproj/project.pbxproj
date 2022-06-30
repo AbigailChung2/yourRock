@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		07630EDA286CCEA5003FEE31 /* PromptTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07630ED9286CCEA5003FEE31 /* PromptTableViewController.swift */; };
 		17A679A0286B8E22007C3E82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A6799F286B8E22007C3E82 /* AppDelegate.swift */; };
 		17A679A2286B8E22007C3E82 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A679A1286B8E22007C3E82 /* SceneDelegate.swift */; };
 		17A679A4286B8E22007C3E82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A679A3286B8E22007C3E82 /* ViewController.swift */; };
@@ -45,7 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07630ED9286CCEA5003FEE31 /* PromptTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptTableViewController.swift; sourceTree = "<group>"; };
 		17A6799C286B8E22007C3E82 /* yourRock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = yourRock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A6799F286B8E22007C3E82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A679A1286B8E22007C3E82 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -124,7 +122,6 @@
 				17A679A5286B8E22007C3E82 /* Main.storyboard */,
 				17A679D2286C0291007C3E82 /* MoodLadderViewController.swift */,
 				17A679E6286D4435007C3E82 /* DisplayPromptViewController.swift */,
-				07630ED9286CCEA5003FEE31 /* PromptTableViewController.swift */,
 				17A679D6286C02ED007C3E82 /* TypeScreenViewController.swift */,
 				17A679E0286D298D007C3E82 /* MoodRecordsTableViewController.swift */,
 				17A679E4286D2AAC007C3E82 /* MoodRecords.swift */,
@@ -294,7 +291,6 @@
 				17A679A2286B8E22007C3E82 /* SceneDelegate.swift in Sources */,
 				17A679AA286B8E22007C3E82 /* yourRock.xcdatamodeld in Sources */,
 				17A679D3286C0291007C3E82 /* MoodLadderViewController.swift in Sources */,
-				07630EDA286CCEA5003FEE31 /* PromptTableViewController.swift in Sources */,
 				17A679E7286D4435007C3E82 /* DisplayPromptViewController.swift in Sources */,
 				17A679E1286D298D007C3E82 /* MoodRecordsTableViewController.swift in Sources */,
 				17A679E5286D2AAC007C3E82 /* MoodRecords.swift in Sources */,
