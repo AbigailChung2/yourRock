@@ -656,7 +656,7 @@
                                 <rect key="frame" x="0.0" y="88" width="414" height="1878"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="K3J-tM-zYq">
-                                        <rect key="frame" x="16" y="0.0" width="414" height="2000"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CCa-JV-Mia">
                                                 <rect key="frame" x="-1" y="0.0" width="415" height="128"/>
