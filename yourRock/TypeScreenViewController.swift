@@ -8,7 +8,6 @@
 import UIKit
 
 class TypeScreenViewController: UIViewController {
-    var nextVC = JournalRecordsTableViewController()
     @IBOutlet weak var displayPromptLabel: UILabel!
     
     @IBOutlet weak var typingField: UITextView!
@@ -24,21 +23,22 @@ class TypeScreenViewController: UIViewController {
         
         if let entryText = typingField.text {
             entry.written = entryText
+        }}
+        
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+            if let completeVC = segue.destination as? JournalRecordsTableViewController {
+                if let entry = sender as? Entry {
+                    completeVC.selectedEntry = entry
+                    completeVC.previousVC = self
+                }
+            }
+            // Get the new view controller using segue.destination.
+            // Pass the selected object to the new view controller.
         }
         
-        nextVC.entries.append(entry)
-        nextVC.tableView.reloadData()
-        navigationController?.popViewController(animated: true)
+//        nextVC.entries.append(entry)
+//        nextVC.tableView.reloadData()
+//        navigationController?.popViewController(animated: true)
     }
     
-    /*
-    // MARK: - Navigation
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}

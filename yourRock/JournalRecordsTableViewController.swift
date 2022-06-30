@@ -9,6 +9,8 @@ import UIKit
 
 class JournalRecordsTableViewController: UITableViewController {
     var entries : [Entry] = []
+    var previousVC = TypeScreenViewController()
+    var selectedEntry = Entry()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -45,9 +47,9 @@ class JournalRecordsTableViewController: UITableViewController {
     }
     
 
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if let addVC = segue.destination as? TypeScreenViewController {
-            addVC.nextVC = self
-        }
-    }
+//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+//        if let addVC = segue.destination as? TypeScreenViewController {
+//            addVC.VC = self
+//        } }
+    
 }

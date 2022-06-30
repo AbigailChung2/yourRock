@@ -3,7 +3,6 @@
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
-        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -416,30 +415,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50W-l3-LW7">
-                                <rect key="frame" x="0.0" y="88" width="414" height="113"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLd-4j-TUV">
-                                        <rect key="frame" x="74" y="31" width="266" height="48"/>
-                                        <attributedString key="attributedText">
-                                            <fragment content="Display Prompt">
-                                                <attributes>
-                                                    <color key="NSColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" metaFont="system" size="41"/>
-                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                                </attributes>
-                                            </fragment>
-                                        </attributedString>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                                <color key="backgroundColor" red="0.25098039220000001" green="0.47450980390000003" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstItem="uLd-4j-TUV" firstAttribute="top" secondItem="50W-l3-LW7" secondAttribute="top" constant="31" id="fDf-na-eqT"/>
-                                    <constraint firstItem="uLd-4j-TUV" firstAttribute="centerX" secondItem="50W-l3-LW7" secondAttribute="centerX" id="ghl-Lt-xST"/>
-                                    <constraint firstAttribute="bottom" secondItem="uLd-4j-TUV" secondAttribute="bottom" constant="34" id="r1r-xA-dMp"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jh1-XO-B8J">
                                 <rect key="frame" x="0.0" y="786" width="414" height="110"/>
                                 <subviews>
@@ -478,6 +453,9 @@
                                             <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="58"/>
                                             <attributedString key="attributedTitle"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="saveButtonTapped:" destination="UZg-MA-6Rf" eventType="touchUpInside" id="MG1-zJ-6Lz"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="748" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7s8-Ev-IIq">
                                         <rect key="frame" x="212" y="6" width="93" height="84"/>
@@ -541,16 +519,33 @@
                                 <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
-                                    <navigationItem title="Write" id="8jU-wB-w4Z">
-                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="kcq-G3-C6u">
-                                            <color key="tintColor" name="AccentColor"/>
-                                            <connections>
-                                                <action selector="saveButtonTapped:" destination="UZg-MA-6Rf" id="Ogn-RH-srH"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem title="Write" id="8jU-wB-w4Z"/>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50W-l3-LW7">
+                                <rect key="frame" x="0.0" y="88" width="414" height="113"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLd-4j-TUV">
+                                        <rect key="frame" x="74" y="31" width="266" height="48"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="Display Prompt">
+                                                <attributes>
+                                                    <color key="NSColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <font key="NSFont" metaFont="system" size="41"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.25098039220000001" green="0.47450980390000003" blue="0.54901960780000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="uLd-4j-TUV" firstAttribute="top" secondItem="50W-l3-LW7" secondAttribute="top" constant="31" id="fDf-na-eqT"/>
+                                    <constraint firstItem="uLd-4j-TUV" firstAttribute="centerX" secondItem="50W-l3-LW7" secondAttribute="centerX" id="ghl-Lt-xST"/>
+                                    <constraint firstAttribute="bottom" secondItem="uLd-4j-TUV" secondAttribute="bottom" constant="34" id="r1r-xA-dMp"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4VH-m0-5eZ"/>
                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -571,7 +566,6 @@
                             <constraint firstItem="yLH-cF-nkx" firstAttribute="leading" secondItem="4VH-m0-5eZ" secondAttribute="leading" constant="8" id="wvV-iU-cxt"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="04B-Oa-JKa"/>
                     <connections>
                         <outlet property="displayPromptLabel" destination="uLd-4j-TUV" id="hzH-eO-QzI"/>
                         <outlet property="typingField" destination="yLH-cF-nkx" id="zOU-yZ-JSB"/>
@@ -641,7 +635,7 @@
             </objects>
             <point key="canvasLocation" x="2570" y="846"/>
         </scene>
-        <!--Help Lines View Controller-->
+        <!--Get Professional Help-->
         <scene sceneID="c7f-SH-DGk">
             <objects>
                 <viewController id="McO-Od-Js6" customClass="HelpLinesViewController" customModule="yourRock" customModuleProvider="target" sceneMemberID="viewController">
@@ -709,7 +703,7 @@
                             <constraint firstAttribute="bottom" secondItem="fmz-bT-LOS" secondAttribute="bottom" id="q5T-vT-9f4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="uNG-wC-TpF"/>
+                    <navigationItem key="navigationItem" title="Get Professional Help" id="uNG-wC-TpF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7Z-4m-x4j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -724,7 +718,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="OIj-gF-R3p">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="OIj-gF-R3p">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OIj-gF-R3p" id="md4-Mm-uNV">
@@ -876,14 +870,7 @@
                                 <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="barTintColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <items>
-                                    <navigationItem title="Write" id="1De-kv-nMZ">
-                                        <barButtonItem key="rightBarButtonItem" systemItem="save" id="eFc-3x-phi">
-                                            <color key="tintColor" name="AccentColor"/>
-                                            <connections>
-                                                <action selector="saveButtonTapped:" destination="bfb-8B-XZG" id="E6g-zO-7HL"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
+                                    <navigationItem title="Write" id="1De-kv-nMZ"/>
                                 </items>
                             </navigationBar>
                         </subviews>
@@ -920,7 +907,7 @@
     <inferredMetricsTieBreakers>
         <segue reference="rke-vq-6cQ"/>
         <segue reference="lgW-b9-jRI"/>
-        <segue reference="2sn-4A-PMv"/>
+        <segue reference="9I0-rN-pR2"/>
         <segue reference="uE9-BT-VxI"/>
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -930,9 +917,6 @@
         <image name="checkmark.circle" catalog="system" width="128" height="121"/>
         <image name="person" catalog="system" width="128" height="117"/>
         <image name="phone" catalog="system" width="128" height="115"/>
-        <namedColor name="AccentColor">
-            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
