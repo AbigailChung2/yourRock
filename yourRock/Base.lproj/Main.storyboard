@@ -79,6 +79,7 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="ExcitedPrompt:" destination="Kxi-KT-iAK" eventType="touchUpInside" id="U3C-be-zHg"/>
+                                            <action selector="f:" destination="Kxi-KT-iAK" eventType="touchUpInside" id="2H7-fF-iFU"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="A59-yE-Gkz"/>
                                         </connections>
                                     </button>
