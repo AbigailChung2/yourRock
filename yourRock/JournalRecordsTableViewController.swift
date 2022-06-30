@@ -9,7 +9,8 @@ import UIKit
 
 class JournalRecordsTableViewController: UITableViewController {
     var entries : [Entry] = []
-
+    var previousVC = TypeScreenViewController()
+    var selectedEntry = Entry()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +40,7 @@ class JournalRecordsTableViewController: UITableViewController {
         let entry = entries[indexPath.row]
 
         cell.textLabel?.text = entry.written
-//                     completeVC.selectedEntry = entry
+
         return cell
 
 

@@ -49,6 +49,19 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="El3-Iu-eUg">
+                                <rect key="frame" x="92" y="108" width="216.5" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content=" feeling today?">
+                                        <attributes>
+                                            <color key="NSColor" red="0.81176000000000004" green="0.87843000000000004" blue="0.76471" alpha="0.84706000000000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="system" size="35"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q8G-7u-hTo">
                                 <rect key="frame" x="0.0" y="175" width="414" height="721"/>
                                 <subviews>
@@ -69,13 +82,25 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XGC-aE-dMY">
-                                        <rect key="frame" x="257" y="66" width="125" height="44"/>
+                                        <rect key="frame" x="261" y="69" width="125" height="44"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <color key="tintColor" red="0.12156862745098039" green="0.21176470588235294" blue="0.23921568627450979" alpha="0.84705882352941175" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" title="happy 😁">
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sJ-WP-fGK">
+                                        <rect key="frame" x="248" y="169" width="135" height="44"/>
+                                        <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="content😌">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="dMA-te-qH1" kind="show" id="mv1-Ue-juO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lno-9F-IS9">
                                         <rect key="frame" x="262" y="276" width="121" height="44"/>
@@ -194,26 +219,14 @@
                                             <segue destination="dMA-te-qH1" kind="show" id="fdO-Fe-T79"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3sJ-WP-fGK">
-                                        <rect key="frame" x="248" y="173" width="135" height="44"/>
-                                        <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="content😌">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="dMA-te-qH1" kind="show" id="mv1-Ue-juO"/>
-                                        </connections>
-                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="Z3l-cI-88A" secondAttribute="trailing" constant="8" id="0RO-Ix-m7K"/>
-                                    <constraint firstItem="lno-9F-IS9" firstAttribute="centerX" secondItem="XGC-aE-dMY" secondAttribute="centerX" constant="3" id="0nI-9D-uWt"/>
+                                    <constraint firstItem="lno-9F-IS9" firstAttribute="centerX" secondItem="XGC-aE-dMY" secondAttribute="centerX" constant="-1" id="0nI-9D-uWt"/>
                                     <constraint firstAttribute="bottom" secondItem="b9N-Lc-EOI" secondAttribute="bottom" constant="81" id="38p-1x-A0Z"/>
                                     <constraint firstAttribute="trailing" secondItem="aMB-NR-6dP" secondAttribute="trailing" constant="13" id="3Tx-3p-ocb"/>
-                                    <constraint firstItem="3sJ-WP-fGK" firstAttribute="top" secondItem="XGC-aE-dMY" secondAttribute="bottom" constant="63" id="57N-EQ-Kcz"/>
+                                    <constraint firstItem="3sJ-WP-fGK" firstAttribute="top" secondItem="XGC-aE-dMY" secondAttribute="bottom" constant="56" id="57N-EQ-Kcz"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="U3w-Xt-8Sd" secondAttribute="trailing" constant="20" symbolic="YES" id="5Wr-sg-5nN"/>
                                     <constraint firstItem="U3w-Xt-8Sd" firstAttribute="leading" secondItem="Q8G-7u-hTo" secondAttribute="leading" constant="25" id="BnU-g4-p1Z"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Wb7-op-tTw" secondAttribute="trailing" constant="20" symbolic="YES" id="Dbr-Lf-d3k"/>
@@ -224,7 +237,7 @@
                                     <constraint firstItem="Z3l-cI-88A" firstAttribute="centerX" secondItem="aMB-NR-6dP" secondAttribute="centerX" constant="4.5" id="Iwa-Yr-KaM"/>
                                     <constraint firstAttribute="trailing" secondItem="b9N-Lc-EOI" secondAttribute="trailing" id="Nhq-IJ-uaa"/>
                                     <constraint firstItem="LZs-Go-hMA" firstAttribute="top" secondItem="Q8G-7u-hTo" secondAttribute="top" constant="118" id="OkB-le-jUi"/>
-                                    <constraint firstItem="lno-9F-IS9" firstAttribute="top" secondItem="3sJ-WP-fGK" secondAttribute="bottom" constant="59" id="U2S-6C-CoG"/>
+                                    <constraint firstItem="lno-9F-IS9" firstAttribute="top" secondItem="3sJ-WP-fGK" secondAttribute="bottom" constant="63" id="U2S-6C-CoG"/>
                                     <constraint firstItem="Ku4-GQ-4a3" firstAttribute="top" secondItem="LZs-Go-hMA" secondAttribute="bottom" constant="64" id="XyP-Cw-iVT"/>
                                     <constraint firstItem="Z3l-cI-88A" firstAttribute="top" secondItem="lno-9F-IS9" secondAttribute="bottom" constant="51" id="aiD-lj-umu"/>
                                     <constraint firstItem="aMB-NR-6dP" firstAttribute="top" secondItem="SUf-GO-Ycs" secondAttribute="bottom" constant="66" id="bDe-Dr-Mgx"/>
@@ -246,19 +259,6 @@
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ku4-GQ-4a3" secondAttribute="trailing" constant="20" symbolic="YES" id="zw8-ga-dRc"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="El3-Iu-eUg">
-                                <rect key="frame" x="99" y="91" width="216.5" height="85"/>
-                                <attributedString key="attributedText">
-                                    <fragment content=" feeling today?">
-                                        <attributes>
-                                            <color key="NSColor" red="0.81176000000000004" green="0.87843000000000004" blue="0.76471" alpha="0.84706000000000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                            <font key="NSFont" metaFont="system" size="35"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -566,7 +566,6 @@
                             <constraint firstItem="yLH-cF-nkx" firstAttribute="leading" secondItem="4VH-m0-5eZ" secondAttribute="leading" constant="8" id="wvV-iU-cxt"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="p9p-J5-15H"/>
                     <connections>
                         <outlet property="displayPromptLabel" destination="uLd-4j-TUV" id="hzH-eO-QzI"/>
                         <outlet property="typingField" destination="yLH-cF-nkx" id="zOU-yZ-JSB"/>
@@ -574,7 +573,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l37-KR-5nP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2570" y="80"/>
+            <point key="canvasLocation" x="2569.5652173913045" y="80.357142857142847"/>
         </scene>
         <!--Moods Archive-->
         <scene sceneID="WQx-Ev-ZRu">
