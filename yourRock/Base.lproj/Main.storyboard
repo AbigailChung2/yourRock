@@ -449,7 +449,7 @@
                                             <fragment content="Prompt Display">
                                                 <attributes>
                                                     <color key="NSColor" red="0.12156862745098039" green="0.21176470588235294" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="32" name="Inter-Regular"/>
+                                                    <font key="NSFont" metaFont="system" size="32"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>

@@ -28,7 +28,7 @@ class DisplayPromptViewController: UIViewController {
       var AnnoyedPrompt = ["Are you annoyed at anyone or anything specifically?“, “do you have any pet peeves?“, “Do you know why you’re irritated?“, “do you believe that people change?“, “What do you have no control over regarding the situation(s) causing your annoyance? How?“, “does the lack of control make you feel?“, “What’s bothering you most right now?"]
       var FrustratedPrompt = ["is your status quo going out of control?“, “what is something you wish you could tell your family or friends?“, “Is the current state of the world contributing to your frustration? Explain.“, “What’s something that has been putting you off lately?“, “Are things not working out the way you envisioned?"]
     
-    var RandomIntExcited = Int.random(in: 0..<2)
+    var RandomIntExcited = Int.random(in: 0..<8)
     var RandomIntHappy = Int.random(in: 0..<5)
     
     
