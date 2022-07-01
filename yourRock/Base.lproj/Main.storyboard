@@ -440,7 +440,7 @@
                                             <segue destination="UZg-MA-6Rf" kind="show" id="aUu-h0-bbv"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlw-fR-Fhl">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlw-fR-Fhl">
                                         <rect key="frame" x="59" y="185" width="300" height="200"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="iaH-er-sz3"/>
