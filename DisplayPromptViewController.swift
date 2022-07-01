@@ -14,7 +14,7 @@ class DisplayPromptViewController: UIViewController {
     
     
     
-    var ExcitedPrompt = [ "Are you expecting change sometime soon?", "Are you expecting something special", "How do you like celebrating special events"]
+    var ExcitedPrompt = [ "Are you expecting change sometime soon?", "Are you expecting something special", "How do you like celebrating special events", "what is your love language?", "how do you express love?", "what things that make you happy?","write about the best day you’ve had recently", "What’s something you don’t want to forget?", "What makes you smile the most?"]
         
       var HappyPrompt = ["what is your love language?“, “how do you express love?“,”what things that make you happy?“,”write about the best day you’ve had recently”,“What’s something you don’t want to forget?“,”What makes you smile the most?"]
       var PleasedPrompt = ["describe a moment in which you were proud of yourself”, “what are you personal goals for the month?“, “Have recent events in your life gone as expected?“,”Write about someone you love.“,”Write about an accomplishment big or small that makes you feel proud of yourself."]
