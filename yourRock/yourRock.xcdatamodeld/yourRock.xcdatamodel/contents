@@ -3,7 +3,11 @@
     <entity name="EntryCD" representedClassName="EntryCD" syncable="YES" codeGenerationType="class">
         <attribute name="written" attributeType="String"/>
     </entity>
+    <entity name="MoodCD" representedClassName="MoodCD" syncable="YES" codeGenerationType="class">
+        <attribute name="name" attributeType="String"/>
+    </entity>
     <elements>
         <element name="EntryCD" positionX="-63" positionY="-18" width="128" height="44"/>
+        <element name="MoodCD" positionX="-54" positionY="0" width="128" height="44"/>
     </elements>
 </model>

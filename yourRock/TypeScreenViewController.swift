@@ -9,7 +9,6 @@ import UIKit
 import CoreData
 
 class TypeScreenViewController: UIViewController {
-    var previousVC = JournalRecordsTableViewController()
     @IBOutlet weak var displayPromptLabel: UILabel!
     @IBOutlet weak var typingField: UITextView!
     

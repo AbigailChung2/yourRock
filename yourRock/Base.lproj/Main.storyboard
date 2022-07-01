@@ -51,6 +51,7 @@
                                         </buttonConfiguration>
                                         <connections>
                                             <action selector="ExcitedPrompt:" destination="Kxi-KT-iAK" eventType="touchUpInside" id="U3C-be-zHg"/>
+                                            <action selector="excitedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kP2-hR-9my"/>
                                             <action selector="f:" destination="Kxi-KT-iAK" eventType="touchUpInside" id="2H7-fF-iFU"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="A59-yE-Gkz"/>
                                         </connections>
@@ -64,6 +65,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="happyButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yb2-WX-gLW"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="kLH-Lf-9zK"/>
                                         </connections>
                                     </button>
@@ -79,6 +81,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="contentButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g21-Rk-1i0"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="mv1-Ue-juO"/>
                                         </connections>
                                     </button>
@@ -91,6 +94,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="boredButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8yb-du-Qbr"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="Tmq-yV-na1"/>
                                         </connections>
                                     </button>
@@ -103,6 +107,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="stressedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a9g-Ev-jvr"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="Pe0-U9-5FD"/>
                                         </connections>
                                     </button>
@@ -115,6 +120,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="angryButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FD2-TR-1OL"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="IhX-Qd-Qx6"/>
                                         </connections>
                                     </button>
@@ -127,6 +133,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="frustratedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ctC-Xa-v6h"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="XUN-WG-PFW"/>
                                         </connections>
                                     </button>
@@ -139,6 +146,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="gloomyButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hRY-pL-Gee"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="A6R-V4-Dls"/>
                                         </connections>
                                     </button>
@@ -151,6 +159,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="annoyedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="s2X-5h-pC1"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="uE9-BT-VxI"/>
                                         </connections>
                                     </button>
@@ -166,6 +175,7 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="anxiousButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sAG-FG-fIF"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="1lx-rK-Ufd"/>
                                         </connections>
                                     </button>
@@ -250,21 +260,6 @@
                                             <constraint firstAttribute="trailing" secondItem="uzK-dE-i4T" secondAttribute="trailing" constant="109" id="yhb-jT-Bze"/>
                                         </constraints>
                                     </view>
-                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZs-Go-hMA">
-                                        <rect key="frame" x="13" y="96" width="148" height="47"/>
-                                        <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="47" id="1CO-QL-ESB"/>
-                                        </constraints>
-                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="☺️ pleased">
-                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
-                                        </buttonConfiguration>
-                                        <connections>
-                                            <segue destination="dMA-te-qH1" kind="show" id="fdO-Fe-T79"/>
-                                        </connections>
-                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ku4-GQ-4a3">
                                         <rect key="frame" x="40" y="217" width="106" height="32"/>
                                         <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -277,7 +272,24 @@
                                             <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
                                         </buttonConfiguration>
                                         <connections>
+                                            <action selector="tiredButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="a6I-qj-c6Z"/>
                                             <segue destination="dMA-te-qH1" kind="show" id="YLi-4r-Lp2"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LZs-Go-hMA">
+                                        <rect key="frame" x="27" y="103" width="148" height="47"/>
+                                        <color key="backgroundColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="47" id="1CO-QL-ESB"/>
+                                        </constraints>
+                                        <color key="tintColor" red="0.1215686275" green="0.21176470589999999" blue="0.23921568630000001" alpha="0.84705882349999995" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" title="☺️ pleased">
+                                            <fontDescription key="titleFontDescription" type="system" pointSize="25"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="pleasedButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U9M-yE-Dzh"/>
+                                            <segue destination="dMA-te-qH1" kind="show" id="fdO-Fe-T79"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -293,16 +305,16 @@
                                     <constraint firstItem="Z3l-cI-88A" firstAttribute="trailing" secondItem="aMB-NR-6dP" secondAttribute="trailing" id="Bli-ce-NHt"/>
                                     <constraint firstItem="U3w-Xt-8Sd" firstAttribute="leading" secondItem="Q8G-7u-hTo" secondAttribute="leading" constant="25" id="BnU-g4-p1Z"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Yv5-Cn-EoF" secondAttribute="trailing" constant="20" symbolic="YES" id="Dcj-9U-Sdh"/>
-                                    <constraint firstItem="LZs-Go-hMA" firstAttribute="trailing" secondItem="XfZ-L9-AFA" secondAttribute="trailing" id="EKb-uu-dBK"/>
+                                    <constraint firstItem="LZs-Go-hMA" firstAttribute="trailing" secondItem="XfZ-L9-AFA" secondAttribute="trailing" constant="14" id="EKb-uu-dBK"/>
                                     <constraint firstItem="XGC-aE-dMY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="XfZ-L9-AFA" secondAttribute="trailing" constant="8" symbolic="YES" id="EgK-f2-qxP"/>
                                     <constraint firstAttribute="trailing" secondItem="XGC-aE-dMY" secondAttribute="trailing" constant="28" id="FUR-uf-yMo"/>
                                     <constraint firstItem="XfZ-L9-AFA" firstAttribute="top" secondItem="Q8G-7u-hTo" secondAttribute="topMargin" id="FqH-4m-djW"/>
                                     <constraint firstItem="Yv5-Cn-EoF" firstAttribute="leading" secondItem="Q8G-7u-hTo" secondAttribute="leading" constant="17" id="H4Y-gB-Yy2"/>
                                     <constraint firstItem="3sJ-WP-fGK" firstAttribute="top" secondItem="XGC-aE-dMY" secondAttribute="bottom" constant="61" id="LJ4-Wh-U5m"/>
                                     <constraint firstAttribute="trailing" secondItem="b9N-Lc-EOI" secondAttribute="trailing" id="Nhq-IJ-uaa"/>
-                                    <constraint firstItem="LZs-Go-hMA" firstAttribute="top" secondItem="Q8G-7u-hTo" secondAttribute="top" constant="96" id="PKv-1h-Njg"/>
+                                    <constraint firstItem="LZs-Go-hMA" firstAttribute="top" secondItem="Q8G-7u-hTo" secondAttribute="top" constant="103" id="PKv-1h-Njg"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Ku4-GQ-4a3" secondAttribute="trailing" constant="20" symbolic="YES" id="QVb-HW-3Kn"/>
-                                    <constraint firstItem="Ku4-GQ-4a3" firstAttribute="top" secondItem="LZs-Go-hMA" secondAttribute="bottom" constant="74" id="TSq-eO-hK0"/>
+                                    <constraint firstItem="Ku4-GQ-4a3" firstAttribute="top" secondItem="LZs-Go-hMA" secondAttribute="bottom" constant="67" id="TSq-eO-hK0"/>
                                     <constraint firstItem="XfZ-L9-AFA" firstAttribute="leading" secondItem="U3w-Xt-8Sd" secondAttribute="leading" id="Vbs-5X-8l7"/>
                                     <constraint firstItem="KKI-qu-Na5" firstAttribute="leading" secondItem="b9N-Lc-EOI" secondAttribute="leading" id="WhZ-yu-exV"/>
                                     <constraint firstItem="lno-9F-IS9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Wb7-op-tTw" secondAttribute="trailing" constant="8" symbolic="YES" id="aRM-ZR-vmj"/>
@@ -313,7 +325,7 @@
                                     <constraint firstItem="lno-9F-IS9" firstAttribute="trailing" secondItem="3sJ-WP-fGK" secondAttribute="trailing" id="gHg-7c-LPg"/>
                                     <constraint firstItem="SUf-GO-Ycs" firstAttribute="top" secondItem="Z3l-cI-88A" secondAttribute="bottom" constant="53" id="gWj-xe-hWE"/>
                                     <constraint firstItem="b9N-Lc-EOI" firstAttribute="leading" secondItem="Q8G-7u-hTo" secondAttribute="leading" id="giF-f4-rVk"/>
-                                    <constraint firstItem="LZs-Go-hMA" firstAttribute="leading" secondItem="Q8G-7u-hTo" secondAttribute="leading" constant="13" id="gzD-ab-Mj2"/>
+                                    <constraint firstItem="LZs-Go-hMA" firstAttribute="leading" secondItem="Q8G-7u-hTo" secondAttribute="leading" constant="27" id="gzD-ab-Mj2"/>
                                     <constraint firstItem="Z3l-cI-88A" firstAttribute="top" secondItem="Q8G-7u-hTo" secondAttribute="top" constant="354" id="htq-gb-Pjc"/>
                                     <constraint firstItem="Wb7-op-tTw" firstAttribute="top" secondItem="Ku4-GQ-4a3" secondAttribute="bottom" constant="60" id="iDq-J4-wo6"/>
                                     <constraint firstAttribute="bottom" secondItem="KKI-qu-Na5" secondAttribute="bottom" id="id2-SM-g2L"/>
@@ -1625,7 +1637,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="OIj-gF-R3p">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="reuseIdentifier" id="OIj-gF-R3p">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OIj-gF-R3p" id="md4-Mm-uNV">
