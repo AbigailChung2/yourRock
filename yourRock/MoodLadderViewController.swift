@@ -8,6 +8,7 @@
 import UIKit
 
 class MoodLadderViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,7 @@ class MoodLadderViewController: UIViewController {
         mood.name = buttonName
         
         appDelegate.saveContext()
+      
     }
     
     @IBAction func pleasedButtonTapped(_ sender: Any) {

@@ -340,15 +340,15 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CIG-w7-7oq">
-                                <rect key="frame" x="0.0" y="0.0" width="413.5" height="176"/>
+                                <rect key="frame" x="0.0" y="0.0" width="400.5" height="176"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iXM-4q-y6a">
-                                        <rect key="frame" x="2" y="66" width="409.5" height="44"/>
+                                        <rect key="frame" x="2" y="66" width="396.5" height="44"/>
                                         <attributedString key="attributedText">
                                             <fragment content="Hello! How are you">
                                                 <attributes>
                                                     <color key="NSColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="38" name="Inter-Regular"/>
+                                                    <font key="NSFont" metaFont="system" size="38"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -356,12 +356,12 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3CO-gf-yWp">
-                                        <rect key="frame" x="87" y="96" width="239.5" height="45"/>
+                                        <rect key="frame" x="87" y="96" width="226.5" height="45"/>
                                         <attributedString key="attributedText">
                                             <fragment content="feeling today?">
                                                 <attributes>
                                                     <color key="NSColor" red="0.81176470590000005" green="0.87843137250000003" blue="0.76470588240000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                    <font key="NSFont" size="38" name="Inter-Regular"/>
+                                                    <font key="NSFont" metaFont="system" size="38"/>
                                                     <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                                 </attributes>
                                             </fragment>
@@ -489,8 +489,8 @@
                                             <action selector="regenerateTapped:" destination="dMA-te-qH1" eventType="touchUpInside" id="VIo-W4-nmi"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prompt Display" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlw-fR-Fhl">
-                                        <rect key="frame" x="149" y="192" width="116" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Prompt Display" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wlw-fR-Fhl">
+                                        <rect key="frame" x="50" y="96" width="300" height="136"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -527,6 +527,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Your Prompt" id="K2q-OR-2Gf"/>
                     <connections>
+                        <outlet property="DisplayPromptSpace" destination="Wlw-fR-Fhl" id="EJn-Cd-SJm"/>
                         <outlet property="displayPromptLabel" destination="0yG-H4-0VV" id="Q8u-tw-N9K"/>
                     </connections>
                 </viewController>
